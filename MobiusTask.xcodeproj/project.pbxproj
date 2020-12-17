@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1441000C061CDD2800B697CA /* Pods_MobiusTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76F67FD7E0683800DABF490 /* Pods_MobiusTask.framework */; };
+		715B6F8D258B2D3700BD9094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6F8C258B2D3700BD9094 /* AppDelegate.swift */; };
+		715B6F8F258B2D3700BD9094 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6F8E258B2D3700BD9094 /* SceneDelegate.swift */; };
+		715B6F91258B2D3700BD9094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6F90258B2D3700BD9094 /* ViewController.swift */; };
+		715B6F94258B2D3700BD9094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715B6F92258B2D3700BD9094 /* Main.storyboard */; };
+		715B6F96258B2D3800BD9094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715B6F95258B2D3800BD9094 /* Assets.xcassets */; };
+		715B6F99258B2D3800BD9094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715B6F97258B2D3800BD9094 /* LaunchScreen.storyboard */; };
+		715B6FA4258B2D3800BD9094 /* MobiusTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6FA3258B2D3800BD9094 /* MobiusTaskTests.swift */; };
+		715B6FAF258B2D3900BD9094 /* MobiusTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6FAE258B2D3900BD9094 /* MobiusTaskUITests.swift */; };
+		715B6FBD258B31BA00BD9094 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6FBC258B31BA00BD9094 /* Reachability.swift */; };
+		715B6FC5258B36BE00BD9094 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6FC2258B36BE00BD9094 /* Tag.swift */; };
+		715B6FC6258B36BE00BD9094 /* Slab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6FC3258B36BE00BD9094 /* Slab.swift */; };
+		715B6FC7258B36BE00BD9094 /* RootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6FC4258B36BE00BD9094 /* RootClass.swift */; };
+		715B6FCA258B49A400BD9094 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B6FC9258B49A400BD9094 /* DemoTableViewCell.swift */; };
+		C22D991845BE82BC80CAD99E /* Pods_MobiusTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB663E21EBBCFFF4C517C8F /* Pods_MobiusTaskTests.framework */; };
+		FBA09A627E025DBECDC25CAB /* Pods_MobiusTask_MobiusTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352AE7DB1088B11C0C4CAFBB /* Pods_MobiusTask_MobiusTaskUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715B6FA0258B2D3800BD9094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715B6F81258B2D3600BD9094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715B6F88258B2D3700BD9094;
+			remoteInfo = MobiusTask;
+		};
+		715B6FAB258B2D3900BD9094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715B6F81258B2D3600BD9094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715B6F88258B2D3700BD9094;
+			remoteInfo = MobiusTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E0DEDAB53390DAAA9F0D72 /* Pods-MobiusTask-MobiusTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusTask-MobiusTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobiusTask-MobiusTaskUITests/Pods-MobiusTask-MobiusTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AB663E21EBBCFFF4C517C8F /* Pods_MobiusTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3027338E5675773B95CC0B /* Pods-MobiusTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusTaskTests.release.xcconfig"; path = "Target Support Files/Pods-MobiusTaskTests/Pods-MobiusTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		352AE7DB1088B11C0C4CAFBB /* Pods_MobiusTask_MobiusTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusTask_MobiusTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C09AC99F938EE341EF7882 /* Pods-MobiusTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-MobiusTaskTests/Pods-MobiusTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58BE79BCCDC0CE6FD34E391C /* Pods-MobiusTask-MobiusTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusTask-MobiusTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-MobiusTask-MobiusTaskUITests/Pods-MobiusTask-MobiusTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		715B6F89258B2D3700BD9094 /* MobiusTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiusTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715B6F8C258B2D3700BD9094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		715B6F8E258B2D3700BD9094 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		715B6F90258B2D3700BD9094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		715B6F93258B2D3700BD9094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715B6F95258B2D3800BD9094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715B6F98258B2D3800BD9094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		715B6F9A258B2D3800BD9094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715B6F9F258B2D3800BD9094 /* MobiusTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715B6FA3258B2D3800BD9094 /* MobiusTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusTaskTests.swift; sourceTree = "<group>"; };
+		715B6FA5258B2D3800BD9094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715B6FAA258B2D3900BD9094 /* MobiusTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715B6FAE258B2D3900BD9094 /* MobiusTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusTaskUITests.swift; sourceTree = "<group>"; };
+		715B6FB0258B2D3900BD9094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715B6FBC258B31BA00BD9094 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		715B6FC2258B36BE00BD9094 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		715B6FC3258B36BE00BD9094 /* Slab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slab.swift; sourceTree = "<group>"; };
+		715B6FC4258B36BE00BD9094 /* RootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootClass.swift; sourceTree = "<group>"; };
+		715B6FC9258B49A400BD9094 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		89BCA17FE26608A35A61C448 /* Pods-MobiusTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusTask.debug.xcconfig"; path = "Target Support Files/Pods-MobiusTask/Pods-MobiusTask.debug.xcconfig"; sourceTree = "<group>"; };
+		BC165FDF8BE3E5E5582F3465 /* Pods-MobiusTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusTask.release.xcconfig"; path = "Target Support Files/Pods-MobiusTask/Pods-MobiusTask.release.xcconfig"; sourceTree = "<group>"; };
+		D76F67FD7E0683800DABF490 /* Pods_MobiusTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715B6F86258B2D3700BD9094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1441000C061CDD2800B697CA /* Pods_MobiusTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715B6F9C258B2D3800BD9094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22D991845BE82BC80CAD99E /* Pods_MobiusTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715B6FA7258B2D3900BD9094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA09A627E025DBECDC25CAB /* Pods_MobiusTask_MobiusTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		695034CE9AE7DB0AAD41946B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D76F67FD7E0683800DABF490 /* Pods_MobiusTask.framework */,
+				352AE7DB1088B11C0C4CAFBB /* Pods_MobiusTask_MobiusTaskUITests.framework */,
+				1AB663E21EBBCFFF4C517C8F /* Pods_MobiusTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715B6F80258B2D3600BD9094 = {
+			isa = PBXGroup;
+			children = (
+				715B6F8B258B2D3700BD9094 /* MobiusTask */,
+				715B6FA2258B2D3800BD9094 /* MobiusTaskTests */,
+				715B6FAD258B2D3900BD9094 /* MobiusTaskUITests */,
+				715B6F8A258B2D3700BD9094 /* Products */,
+				B9E9A3922A888EA8F8E4EF31 /* Pods */,
+				695034CE9AE7DB0AAD41946B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		715B6F8A258B2D3700BD9094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715B6F89258B2D3700BD9094 /* MobiusTask.app */,
+				715B6F9F258B2D3800BD9094 /* MobiusTaskTests.xctest */,
+				715B6FAA258B2D3900BD9094 /* MobiusTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715B6F8B258B2D3700BD9094 /* MobiusTask */ = {
+			isa = PBXGroup;
+			children = (
+				715B6FC8258B498600BD9094 /* View */,
+				715B6FC1258B367600BD9094 /* Model */,
+				715B6F8C258B2D3700BD9094 /* AppDelegate.swift */,
+				715B6F8E258B2D3700BD9094 /* SceneDelegate.swift */,
+				715B6F90258B2D3700BD9094 /* ViewController.swift */,
+				715B6F92258B2D3700BD9094 /* Main.storyboard */,
+				715B6F95258B2D3800BD9094 /* Assets.xcassets */,
+				715B6F97258B2D3800BD9094 /* LaunchScreen.storyboard */,
+				715B6F9A258B2D3800BD9094 /* Info.plist */,
+				715B6FBC258B31BA00BD9094 /* Reachability.swift */,
+			);
+			path = MobiusTask;
+			sourceTree = "<group>";
+		};
+		715B6FA2258B2D3800BD9094 /* MobiusTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				715B6FA3258B2D3800BD9094 /* MobiusTaskTests.swift */,
+				715B6FA5258B2D3800BD9094 /* Info.plist */,
+			);
+			path = MobiusTaskTests;
+			sourceTree = "<group>";
+		};
+		715B6FAD258B2D3900BD9094 /* MobiusTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				715B6FAE258B2D3900BD9094 /* MobiusTaskUITests.swift */,
+				715B6FB0258B2D3900BD9094 /* Info.plist */,
+			);
+			path = MobiusTaskUITests;
+			sourceTree = "<group>";
+		};
+		715B6FC1258B367600BD9094 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				715B6FC4258B36BE00BD9094 /* RootClass.swift */,
+				715B6FC3258B36BE00BD9094 /* Slab.swift */,
+				715B6FC2258B36BE00BD9094 /* Tag.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		715B6FC8258B498600BD9094 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				715B6FC9258B49A400BD9094 /* DemoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9E9A3922A888EA8F8E4EF31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89BCA17FE26608A35A61C448 /* Pods-MobiusTask.debug.xcconfig */,
+				BC165FDF8BE3E5E5582F3465 /* Pods-MobiusTask.release.xcconfig */,
+				07E0DEDAB53390DAAA9F0D72 /* Pods-MobiusTask-MobiusTaskUITests.debug.xcconfig */,
+				58BE79BCCDC0CE6FD34E391C /* Pods-MobiusTask-MobiusTaskUITests.release.xcconfig */,
+				44C09AC99F938EE341EF7882 /* Pods-MobiusTaskTests.debug.xcconfig */,
+				2E3027338E5675773B95CC0B /* Pods-MobiusTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715B6F88258B2D3700BD9094 /* MobiusTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715B6FB3258B2D3900BD9094 /* Build configuration list for PBXNativeTarget "MobiusTask" */;
+			buildPhases = (
+				3FA4307819F222F894356FE8 /* [CP] Check Pods Manifest.lock */,
+				715B6F85258B2D3700BD9094 /* Sources */,
+				715B6F86258B2D3700BD9094 /* Frameworks */,
+				715B6F87258B2D3700BD9094 /* Resources */,
+				4C0B75D40A0099F3F9082D60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiusTask;
+			productName = MobiusTask;
+			productReference = 715B6F89258B2D3700BD9094 /* MobiusTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715B6F9E258B2D3800BD9094 /* MobiusTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715B6FB6258B2D3900BD9094 /* Build configuration list for PBXNativeTarget "MobiusTaskTests" */;
+			buildPhases = (
+				E581A36736B740763DFAAE19 /* [CP] Check Pods Manifest.lock */,
+				715B6F9B258B2D3800BD9094 /* Sources */,
+				715B6F9C258B2D3800BD9094 /* Frameworks */,
+				715B6F9D258B2D3800BD9094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715B6FA1258B2D3800BD9094 /* PBXTargetDependency */,
+			);
+			name = MobiusTaskTests;
+			productName = MobiusTaskTests;
+			productReference = 715B6F9F258B2D3800BD9094 /* MobiusTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		715B6FA9258B2D3900BD9094 /* MobiusTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715B6FB9258B2D3900BD9094 /* Build configuration list for PBXNativeTarget "MobiusTaskUITests" */;
+			buildPhases = (
+				1707C02A2E820D56E94B1E0B /* [CP] Check Pods Manifest.lock */,
+				715B6FA6258B2D3900BD9094 /* Sources */,
+				715B6FA7258B2D3900BD9094 /* Frameworks */,
+				715B6FA8258B2D3900BD9094 /* Resources */,
+				8CA9AA5CB9337C3B3E8D926D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715B6FAC258B2D3900BD9094 /* PBXTargetDependency */,
+			);
+			name = MobiusTaskUITests;
+			productName = MobiusTaskUITests;
+			productReference = 715B6FAA258B2D3900BD9094 /* MobiusTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715B6F81258B2D3600BD9094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Archan Mehta";
+				TargetAttributes = {
+					715B6F88258B2D3700BD9094 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					715B6F9E258B2D3800BD9094 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 715B6F88258B2D3700BD9094;
+					};
+					715B6FA9258B2D3900BD9094 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 715B6F88258B2D3700BD9094;
+					};
+				};
+			};
+			buildConfigurationList = 715B6F84258B2D3700BD9094 /* Build configuration list for PBXProject "MobiusTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715B6F80258B2D3600BD9094;
+			productRefGroup = 715B6F8A258B2D3700BD9094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715B6F88258B2D3700BD9094 /* MobiusTask */,
+				715B6F9E258B2D3800BD9094 /* MobiusTaskTests */,
+				715B6FA9258B2D3900BD9094 /* MobiusTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715B6F87258B2D3700BD9094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715B6F99258B2D3800BD9094 /* LaunchScreen.storyboard in Resources */,
+				715B6F96258B2D3800BD9094 /* Assets.xcassets in Resources */,
+				715B6F94258B2D3700BD9094 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715B6F9D258B2D3800BD9094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715B6FA8258B2D3900BD9094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1707C02A2E820D56E94B1E0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusTask-MobiusTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA4307819F222F894356FE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C0B75D40A0099F3F9082D60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiusTask/Pods-MobiusTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiusTask/Pods-MobiusTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiusTask/Pods-MobiusTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CA9AA5CB9337C3B3E8D926D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiusTask-MobiusTaskUITests/Pods-MobiusTask-MobiusTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiusTask-MobiusTaskUITests/Pods-MobiusTask-MobiusTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiusTask-MobiusTaskUITests/Pods-MobiusTask-MobiusTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E581A36736B740763DFAAE19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715B6F85258B2D3700BD9094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715B6F91258B2D3700BD9094 /* ViewController.swift in Sources */,
+				715B6F8D258B2D3700BD9094 /* AppDelegate.swift in Sources */,
+				715B6FCA258B49A400BD9094 /* DemoTableViewCell.swift in Sources */,
+				715B6FC5258B36BE00BD9094 /* Tag.swift in Sources */,
+				715B6FBD258B31BA00BD9094 /* Reachability.swift in Sources */,
+				715B6FC7258B36BE00BD9094 /* RootClass.swift in Sources */,
+				715B6F8F258B2D3700BD9094 /* SceneDelegate.swift in Sources */,
+				715B6FC6258B36BE00BD9094 /* Slab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715B6F9B258B2D3800BD9094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715B6FA4258B2D3800BD9094 /* MobiusTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715B6FA6258B2D3900BD9094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715B6FAF258B2D3900BD9094 /* MobiusTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		715B6FA1258B2D3800BD9094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715B6F88258B2D3700BD9094 /* MobiusTask */;
+			targetProxy = 715B6FA0258B2D3800BD9094 /* PBXContainerItemProxy */;
+		};
+		715B6FAC258B2D3900BD9094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715B6F88258B2D3700BD9094 /* MobiusTask */;
+			targetProxy = 715B6FAB258B2D3900BD9094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		715B6F92258B2D3700BD9094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715B6F93258B2D3700BD9094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		715B6F97258B2D3800BD9094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715B6F98258B2D3800BD9094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715B6FB1258B2D3900BD9094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		715B6FB2258B2D3900BD9094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715B6FB4258B2D3900BD9094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89BCA17FE26608A35A61C448 /* Pods-MobiusTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobiusTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MobiusTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715B6FB5258B2D3900BD9094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC165FDF8BE3E5E5582F3465 /* Pods-MobiusTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobiusTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MobiusTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		715B6FB7258B2D3900BD9094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C09AC99F938EE341EF7882 /* Pods-MobiusTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobiusTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MobiusTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiusTask.app/MobiusTask";
+			};
+			name = Debug;
+		};
+		715B6FB8258B2D3900BD9094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3027338E5675773B95CC0B /* Pods-MobiusTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobiusTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MobiusTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiusTask.app/MobiusTask";
+			};
+			name = Release;
+		};
+		715B6FBA258B2D3900BD9094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E0DEDAB53390DAAA9F0D72 /* Pods-MobiusTask-MobiusTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobiusTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MobiusTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobiusTask;
+			};
+			name = Debug;
+		};
+		715B6FBB258B2D3900BD9094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BE79BCCDC0CE6FD34E391C /* Pods-MobiusTask-MobiusTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobiusTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MobiusTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobiusTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715B6F84258B2D3700BD9094 /* Build configuration list for PBXProject "MobiusTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715B6FB1258B2D3900BD9094 /* Debug */,
+				715B6FB2258B2D3900BD9094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715B6FB3258B2D3900BD9094 /* Build configuration list for PBXNativeTarget "MobiusTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715B6FB4258B2D3900BD9094 /* Debug */,
+				715B6FB5258B2D3900BD9094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715B6FB6258B2D3900BD9094 /* Build configuration list for PBXNativeTarget "MobiusTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715B6FB7258B2D3900BD9094 /* Debug */,
+				715B6FB8258B2D3900BD9094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715B6FB9258B2D3900BD9094 /* Build configuration list for PBXNativeTarget "MobiusTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715B6FBA258B2D3900BD9094 /* Debug */,
+				715B6FBB258B2D3900BD9094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715B6F81258B2D3600BD9094 /* Project object */;
+}

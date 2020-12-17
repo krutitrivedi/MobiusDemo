@@ -1,0 +1,6 @@
+framework module Pods_MobiusTaskTests {
+  umbrella header "Pods-MobiusTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
